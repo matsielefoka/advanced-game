@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Rift</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="hud-panel top-left">
+        <div class="brand">NEON RIFT</div>
+        <div class="meta">Arcade survival protocol</div>
+      </div>
+
+      <canvas id="gameCanvas" width="960" height="540"></canvas>
+
+      <div id="overlay" class="overlay visible">
+        <div class="panel">
+          <h1>Neon Rift</h1>
+          <p>
+            Survive the rift storm, eliminate hostile drones, and defeat the
+            Rift Warden.
+          </p>
+          <ul>
+            <li>Move: WASD / Arrow Keys</li>
+            <li>Shoot: Mouse Click or Space</li>
+            <li>Dash: Shift</li>
+            <li>Pause: P</li>
+          </ul>
+          <button id="startBtn">Start Mission</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
